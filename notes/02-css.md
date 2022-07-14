@@ -26,3 +26,10 @@ Don't use text align center for paragraphs
 
 flex-column displays top to bottom
     flex direction-column
+
+7-13-22
+
+get bootstrap 5 quicksnippets
+    bs 5 $ - brings in bootstrap libraries and style sheets
+
+    copy cdn from website and link
