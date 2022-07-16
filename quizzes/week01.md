@@ -69,5 +69,5 @@ Stands for display-flex. Allows you to align items and images in a flex-box.
 **11.** What `CSS` properties affect the size of a box model?
 <!-- enter you answer in the space below -->
 ```
-content, padding, border, margin
+Content, padding, border, margin
 ```
