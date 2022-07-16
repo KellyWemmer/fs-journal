@@ -23,3 +23,29 @@ breakpoints-bs has six default break points
     write from smallest to largest screen
 
 snippets
+
+columns don't have a default height, needs something inside to show up on screen.
+
+for mocks:
+    start with container, then place number of rows inside container
+
+    image placeholders
+        //placehold.it/200x200
+
+paste in bootstrap Jquery, popper to bottom of body
+
+can use object fit for images in bs
+can use view height to set column height
+
+coolers colors, can sae in figma
+
+prototype in figma allow functionality
+
+d-none - display does not show up
+d-md-none display does not shw up on med screen
+d-md-block show up after hidden
+    will default to smallest screen
+
+white text with text shadow is easiest to read
+
+pointer tag and hover on anything clickable

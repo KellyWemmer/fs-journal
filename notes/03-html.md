@@ -19,3 +19,18 @@ can change formatting in web console
 meettheipsums - cool ipsum texts!
 metaphormsum
 
+windows . gets emojis
+
+for linking mdi, md cheatsheet, match version installed
+    i tag-icons
+
+body- -min-height 100vh
+    display flex
+    flex-direction: column
+
+main flex-grow:1 (number 1 priority)
+
+offset-1
+    start 1 unit in from start
+
+highlight and control D to select multiple items

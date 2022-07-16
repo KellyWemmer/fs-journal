@@ -33,3 +33,9 @@ get bootstrap 5 quicksnippets
     bs 5 $ - brings in bootstrap libraries and style sheets
 
     copy cdn from website and link
+
+7/14
+@media change background of image of changing screen sizes
+
+transform: translateY(-15)
+    pulls item upward, positive pulls down
