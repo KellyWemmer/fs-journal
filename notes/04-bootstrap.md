@@ -49,3 +49,10 @@ d-md-block show up after hidden
 white text with text shadow is easiest to read
 
 pointer tag and hover on anything clickable
+
+checkpoint1
+    sticky navbar- navbar sticks to top
+    spill card only on large screens
+    columns will grow to row height
+    spill effect (buttons on buy cards)
+    use form control in Bootstrap
