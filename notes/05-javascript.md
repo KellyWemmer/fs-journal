@@ -137,3 +137,20 @@ switch statement
  in the case of 'happy: += 10 cash...
  break
  default: 
+
+
+ 7/22
+
+ Moon Miner
+
+ click moon to get cheese
+
+ have shop with equipment to get more cheese
+
+ Have click upgrades and automatic upgrades
+
+ have running count of equipment
+
+ displays how much cheese per click
+
+ 
