@@ -3,27 +3,28 @@
 **1.** What do the letters of the acronym `CRUD` stand for?
 <!-- enter you answer in the space below -->
 ```
-
+create, read, update, delete
 ```
 **2.** Each action that `CRUD` represents maps to an HTTP request. What HTTP request does each `CRUD` action correspond to?
 <!-- enter you answer in the space below -->
 ```
-
+get, post, put, delete
 ```
 **3.** What does `ORM` stand for? Which `ORM` do we use when interacting with MongoDB
 <!-- enter you answer in the space below -->
 ```
-
+Object relational mapping
+Mongoose??
 ```
 **4.** Which two `HTTP` request types include a body?
 <!-- enter you answer in the space below -->
 ```
-
+Post, put
 ```
 **5.** In a/an _______ coding model, when you call a function, it returns only when the action has finished and stops your program for the time the action takes. Likewise in a/an _______ coding model, multiple things are allowed to happen at one time. When you perform an action, your program continues to run.  Fill in the blanks.
 <!-- enter you answer in the space below -->
 ```
-
+async, sync
 ```
 
 **6.** Fill in the missing piece of this snippet of code.
@@ -38,7 +39,7 @@ let Schema = ________.Schema;
 **7.** What is middleware?
 <!-- enter you answer in the space below -->
 ```
-
+the software that lies between the operating system and the applications running on it
 ```
 **8.** The ______ pipeline delivers information from the client while the ______ pipeline returns it. Fill in the blanks. 
 <!-- enter you answer in the space below -->
