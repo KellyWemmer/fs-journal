@@ -144,12 +144,50 @@ enrollment model
 
 localhost3000 login
 
+8/11/22 - Fedex
+
+auth0 - put before what you want to keep private
+
+creator id references account
+    matches dvContext (account)
+
+server gets user info from bearer token
+
+create virtual in ship schema- how I want to get what I want to get
+    virtual name - banana word
+        One item true
+        foreign field always _id - Id in the account
+        localfield creatorId
+        ref: Acount
+
+        must opt in everytime make a query
+
+shipsService
+    include populate(banana word) after find(query)
+
+get query, includes property banana in postman
+    is the user info that came from _id
 
 
+need to populate in getById
 
+when using a function the requires auth
+    have access to req.userInfo
 
+delete id is id from router id's
+    toString - because creatorId comes back as object
 
+package model
+    senderID same as creator
 
+    create 2 virtuals
 
+auth0 in create
+need use Auth in routher
+
+Packageservice
+    need to verify recipient/ship
+
+bathilda ID network tab
 
 
