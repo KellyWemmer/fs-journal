@@ -68,3 +68,125 @@ accessing template but it's not in scipt
 
 v-model form
 use ref: for anything editable
+
+8/16/22 movie api
+
+axios service
+movies service
+movie model
+Appstate
+movie service getMoviesBy search
+    use params when adding query parameters
+
+start server/npm i
+
+pages
+    HomePage.vue
+        delete template
+        headers/footers come from app.vue
+        delete default styling .home etc
+        new template vt tab
+            name class = which page it is
+
+order of params doesn't matter for query
+
+homePage
+    movies: computed
+    {{movies}} to show up on page
+only write code in setup function
+    use return when users have to interact with
+    setup = private
+
+button in template
+    get raw data
+
+MovieCard.js
+
+HomePage
+    v-for
+        key=if this movie changes, update this one element, don't need to redraw all movies
+    MovieCard - needs to be same spelling as component MovieCard.js
+    key will always singular "m" in movies + id
+    :move = "m"
+
+prop:
+    movie: type, required true
+    props needs to match movieCard
+        props do not need to be returned
+
+HomePage.vue
+    use lifecycle hooks to load page
+    onMounted -  need to import
+        run fx getMovies
+        don't have access to getMovies in return
+        move to private
+
+don't write forms in homepage
+    searchform.vue
+    form
+    searchMovies fx
+    v-model = "query"
+
+setup
+    const query = ref('')
+
+need to return query
+
+modal component
+    don't need to target id's
+    can use tag slot
+    put modal in moviecard
+
+data-bs-target on image
+
+instead - make active movie for modal
+
+app.vue
+    Modal
+
+appstate
+    activeMovie
+    v-if = 'activeMovie'
+
+app.vue
+    computed activemovie
+
+movieCard
+    bs - targe = #active-movie
+    @click
+
+can setactive movie in service
+
+modal component delete header/buttons
+
+homePage activeMovie
+    button add to watch list
+
+create array in appstate for watchlist
+fx loadstate
+
+MovieService addmovie to watchlist
+
+
+Router
+    router.js
+    add new page
+
+pages
+    addWatchlistpage.vue
+    default template
+    can access by /watchlist in browser
+
+nav bar
+    add watchlist
+
+add html to watchlistpage
+    movies computed
+
+movieservice
+    res.data.page
+        
+
+
+
+            
