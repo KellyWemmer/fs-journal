@@ -185,7 +185,51 @@ add html to watchlistpage
 
 movieservice
     res.data.page
-        
+
+8/16/22 Fireside Pokedex Vue
+set up view
+    app.vue
+    main container fluid html
+
+axios service
+PokemonService getPokemon
+
+homepage onmounted
+
+log the getApi and console log
+
+render raw data
+add button
+use v-for drawing name to button
+
+use ? before name to wait for data
+
+button setActive - url
+
+console log active pokemon
+html for active poke
+
+use elvis operator if doesn't read page yet
+
+Pagination
+next in console results = next page url
+
+create next/previous buttons
+
+get request in PokeService
+    nextpage and previous page in appstate
+    appstate pages = null
+    log in console - check we have correct pages
+
+HomePage @click change page
+computed next page and prev page
+changePage() Home Page/Service
+look at offsets to see page in console
+
+previousPage
+    disable button when !previous
+height and weight still on page
+    v-if = active
 
 
 
