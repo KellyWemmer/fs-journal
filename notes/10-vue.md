@@ -231,6 +231,66 @@ previousPage
 height and weight still on page
     v-if = active
 
+8/17/22 Gregslist
+
+edit account-need to know!
+
+drag models/services from gregslistAuth
+
+copy/paste keys under socket
+vue localhost8080
+    getting data from local3000 api/cars
+
+Proxy = Appstate
+
+router
+    carspage
+
+CarsPage.vue
+
+onmounted getCars
+
+computed cars
+
+navbar-replace about=cars
+
+add jobs in router before navbar
+CarCard component - paste model template
+    remove columns in components
+
+edit template
+props car
+
+CarsPage
+    v-for
+        render card to page
+
+modal component - from flix
+
+make active car in carservice
+
+active car in appstate
+
+return
+
+modal to button tag
+
+form on CarForm component
+    replace value with v model
+    script editable
+    watchEffect - when using form for edit and create
+    handlesubmit
+
+v-models
+
+can view car properties in console
+
+data-bs-dismiss to close modal after update
+
+
+
+
+
 
 
             
