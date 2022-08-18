@@ -405,4 +405,70 @@ accountform
         router.push
 
 ProfilePage
-    bg Image:
+    bg Image/coverImg
+    :style
+    height
+
+ProfilePage
+    v-if profile.id == account.id
+    account computed
+    router-link Edit Account
+        is button
+
+app.vue
+    delete header/footers
+    write new template
+
+app.vue
+    router link Art Establishment to home link
+
+Login.vue
+    bind Title
+
+Projectform component
+    form @Submit
+    const editable
+    watchEffect
+
+    editable
+    handlesubmit
+
+ProfilesService
+    createProject
+    editProject
+    delete
+    get
+
+appstate
+    projects
+    activeproject
+
+HomePage
+    getProjects
+    return computed projects
+    {{projects}} to page
+
+ProjectCard
+props are singular
+
+
+HomePage
+    project card template
+    print titles
+
+    new Date to local date string
+    img v-for
+
+ProjectCard computed
+
+HomePage
+    Projectform
+    finish project form
+
+editables
+props
+router links
+what small steps to take to log as I go
+Next steps on Gregslist project?
+
+ProjectCard
