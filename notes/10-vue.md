@@ -472,3 +472,28 @@ what small steps to take to log as I go
 Next steps on Gregslist project?
 
 ProjectCard
+    v-if project.creator
+    router link with params
+    css
+
+ProfilePage
+    coverImg ||
+    add height im src
+
+    container in ProfilePage
+
+    add computed projects
+    pfrofileProjects in Appstate
+
+    getprojectsByCreatorId
+    onMounted
+
+ProjectService
+    getprojectsByCreatorId
+
+ProjectCard
+    v-if for edit button
+    account:
+    Projectform
+    toggleEdit
+    
