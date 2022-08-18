@@ -287,10 +287,122 @@ can view car properties in console
 
 data-bs-dismiss to close modal after update
 
+deletecar in CarCard
 
+setActivecar to empty object
 
+router
+    /cars/:carId
 
+CarPage
+    car card pasted
 
+new page car doesn't come from prop
 
+router-link CarCard
+    params
 
-            
+v-if car in CarPage
+
+log in
+    manage account
+
+account page
+
+account-whoever is logged in
+
+accounts page
+need form to change account info
+
+accountform.vue component
+
+8/18/22
+
+view profiles/edit account
+
+sandbox api projects
+
+Project.js
+    put defaults in data
+
+axiosService
+    baseUrl sandbox
+    auth keys
+
+start server
+    8080
+    Login - new account
+    can log in/manage account
+
+account page - can edit own account - settings
+Profile Page - what I choose to show
+
+component accountform
+    form v-model editable
+    label visually hidden
+
+account page
+    account form
+
+accountform
+    const editable
+    watchEffect
+    editable
+    handle Submit
+
+accountService
+    editAccount
+
+account form
+
+f2 = can change multiple names
+
+style in accountPage
+
+add coverImg and bio to accountmodel
+form rendered to page
+
+ProfilePage
+    log hello
+
+router
+    profile/:profileId
+
+8080 profile/testing
+
+ProfilePage
+    const route = useRoute
+    route.params
+
+ProfilesService
+    getProfileById
+
+log - id from account
+    profile info in log
+
+Profile.js
+
+appstate active profile
+
+Profile.vue
+    computed
+
+ProfilePage
+    {{profile}}
+    build template
+
+breaks when refresh - is null at first
+
+profilePagae
+    v-if - profile
+    else 
+
+    if bad id
+        router.push
+
+accountform
+    editable
+        router.push
+
+ProfilePage
+    bg Image:
