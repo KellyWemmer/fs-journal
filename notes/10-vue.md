@@ -368,9 +368,9 @@ ProfilePage
 router
     profile/:profileId
 
-8080 profile/testing
+*****8080 profile/testing*****
 
-ProfilePage
+ProfilePage***
     const route = useRoute
     route.params
 
@@ -483,7 +483,7 @@ ProfilePage
     container in ProfilePage
 
     add computed projects
-    pfrofileProjects in Appstate
+    profileProjects in Appstate
 
     getprojectsByCreatorId
     onMounted
@@ -496,4 +496,32 @@ ProjectCard
     account:
     Projectform
     toggleEdit
-    
+
+undraw.io
+no delete or edit on other posts
+update class for bios
+
+has posts api
+    likeId's
+
+    do not need likes array
+
+do not create class called ad
+don't use word banner
+
+different sizes of ads 
+
+if logged in and likeing post, will like or unlike post - needs to update to correct number of likes
+can't like posts if not logged in
+
+do not need to edit posts
+need to edit account
+need to delete posts when logged in 
+
+do all gets first
+pagination required on homepage and posts
+
+due post but handle like a put - use splice
+1st gregslist is good reference
+
+log in before leaving
