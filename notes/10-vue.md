@@ -525,3 +525,98 @@ due post but handle like a put - use splice
 1st gregslist is good reference
 
 log in before leaving
+
+8/22/22
+
+create fullstack
+need to open workspace
+    type code post-it workspace in 
+        has client and server
+        env files in client and server
+
+localhost and login
+    run npm i in server and client individually
+
+build out server
+    can delete client in server if use 8080 to get tokens
+
+server
+    model
+    uml album has model info
+    const objectId
+        creatorId need ref to accountId
+    enum: can limit types of strings
+    lowercase: true - turns capital into lowercase
+
+create virtual - can use banana word
+    localfield
+    foreign - looks at account id (_id)
+    ref: where to look? Account
+    justOne-keeps from making array with one object
+
+virtual - data that does not exist on the album, but exists in accounts
+
+new Schema - what does data look like when mongoose saves it
+
+controller
+super - runs constructor of basecontroller
+    registers string to server
+
+this.router
+    only make album if logged in
+        .use(Auth0)
+
+get userInfo from whoever is making album and pass to body
+
+
+
+can write tests in postman
+
+do not change anything in tests
+    except variables-auth token
+
+get token   
+    network token copy value
+        put on rightside/current value and save
+
+open console in postman
+
+AlbumServices
+    register Schema
+    dbContext
+    populate-put items together
+
+archive - wants only user to be able to delete
+creatorId comes back from mongoose-turn to string
+album has boolean for archive
+
+pictures
+    model
+
+album controller
+
+client homepage
+    getAlbums
+
+albumsService
+
+Appstate
+
+router
+    beforeEnter:authSettled - try to log person in first
+
+in console vue- can see what's in the appstate
+
+homepage 
+    computed
+    vue-see albums in home
+
+computed - returns data
+
+key-what makes album unique (id)
+
+{{}} text content
+: inside tag - binds to source attribute
+hard code data in component first before interpolation
+:album = "a"
+a prop is known as "album"
