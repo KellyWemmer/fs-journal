@@ -620,3 +620,137 @@ key-what makes album unique (id)
 hard code data in component first before interpolation
 :album = "a"
 a prop is known as "album"
+
+8/23/22
+
+AlbumForm
+v-model for editable
+add form to modal
+    should also put album in appvue 
+
+HomePage
+    filter with options
+    put same place as v-for
+    keep filter with component
+    will need computed and ref to filter
+    at click needs to match filter terms
+    computed - changes the data coming to homepage, not the appstate array
+
+    does not get all on reload
+        filterTerm.value ?
+            if no filter term: return true (everything is true)
+
+Album details page
+page elements - router push
+text-router link
+@click=routerpush
+router url
+route-where you are
+
+router.js
+
+albumDetailsPage
+onMounted
+grab id by url
+
+services
+    getAlbumbyId    
+
+computed before raw data dump
+
+getPicsByAlbumId
+
+PictureCard
+page-container fluid
+component - rows
+
+props = make cards unique
+
+PictureForm
+bs-5-in
+editable.value.albumId has to be attached to new picture
+
+Many to many**
+Collaborator.js
+albumId
+accountId 
+
+virtual album
+virtual - not label account
+    profile-asking for other people's userInfo
+
+dbContext
+
+albumsController
+
+
+do delete thing that binds me as Collaborator
+
+Collaborators on client
+will need album id and account id
+
+collab button on homepage
+
+return new collab
+    makes new object
+
+collaborators service
+
+Appstate
+    create two sep arrays
+
+service
+
+albumDetailsPage
+make sure profile can't collab twice
+uncollab button
+    removes link to collab
+
+HomePage
+    getcollabalbumsbyaccountid
+
+
+collabAlbum component
+    props
+
+
+make proper server to pass testing
+router push for page change after pop 
+
+event is soft deleted through soft event cancel, not deleted
+
+if cancelled or no capacity, don't show buttons
+
+high contrast text
+selector - hover to see contrast
+color in devtools
+
+postman tests***
+workspace
+import
+link
+type url from browser
+paste continue
+import
+import into collections folders
+don't change test code
+    click on tower - variables
+    need two tokens for different users
+
+network, sign in, get token (payload)
+    copy paste
+private browser for other user
+8080 sign in as another person
+    copy token for auth2 - save!
+
+create ticket
+delete ticket
+    event capacity is decreased after ticket created
+    when create - modify number
+        do reverse on delete ticket
+        use one 'l' for cancel in model
+
+
+
+
+
