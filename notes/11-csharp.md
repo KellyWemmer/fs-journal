@@ -57,7 +57,7 @@ Cat.CS
 namespace
 public class
 
-use C# for visua studio code and C# extensions 
+use C# for visual studio code and C# extensions 
     use shortcut prop
 
 catscontroller.CS
