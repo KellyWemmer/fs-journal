@@ -103,6 +103,47 @@ write sql in dbsetup first to test
 
 collectionpieceviewmodel - extra id
 
+9/19
 
+new class Rep Item in Repo Item Model
+createdAt in account
 
+T - dataType we don't know yet
+a generic
+
+Make profile class so don't have to use account class
+
+Interfaces
+    Interfaces in service
+    can call out properties and methods
+    creates blueprint for what repo should have
+
+9/20
+.env, development, change localhost
+
+cult model and repoItem
+
+another public class profile
+
+Cult extends Repo
+profile has everything in profile plus whats in repoItem
+
+9/21
+
+view model in account
+cultMemberId - relationship to cult
+get list of accounts tied to cult
+inject cultMemberServices
+
+cultmemberservice delete for final
+
+buttons fixed to bottom of modal
+
+can't submit form if not completed
+
+valid auth - logged
+valid auth - no one logged in
+invalid auth - logged in as someone else
+
+do not have to edit on front end
 
